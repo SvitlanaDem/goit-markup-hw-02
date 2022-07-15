@@ -86,14 +86,14 @@ body {
   line-height: 1.88;
   display: flex;
   letter-spacing: 0.06em;
-  color: var(--accent-color);
-  background-color: #2196f3;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   cursor: pointer;
 }
 
 .btn:hover,
 .btn:focus {
   background-color: #2196f3;
+  color: var(--accent-color);
 }
 
 .about-title {
@@ -123,13 +123,11 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 .team-item-text {
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }

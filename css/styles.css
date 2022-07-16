@@ -1,6 +1,7 @@
 :root {
   --text-color: #757575;
-  --accent-color: #ffffff;
+  --second-text-color: #ffffff;
+  --accent-color: #2196f3;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 }
 
 .header {
-  background-color: var(--accent-color);
+  background-color: var(--second-text-color);
 }
 
 .logo,
@@ -27,14 +28,14 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .black-logo {
   color: #000000;
 }
 
 .white-logo {
-  color: var(--accent-color);
+  color: var(--second-text-color);
 }
 
 .header-link {
@@ -46,7 +47,11 @@ body {
 
 .header-link:hover,
 .header-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+.current {
+  color: var(--accent-color);
 }
 
 .contacts-list {
@@ -63,7 +68,7 @@ body {
 
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .hero {
@@ -77,7 +82,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--accent-color);
+  color: var(--second-text-color);
 }
 
 .btn {
@@ -92,8 +97,8 @@ body {
 
 .btn:hover,
 .btn:focus {
-  background-color: #2196f3;
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: var(--second-text-color);
 }
 
 .about-title {
@@ -144,7 +149,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: var(--second-text-color);
 }
 
 .footer-link {
@@ -157,7 +162,7 @@ body {
 
 .footer-link:hover,
 .footer-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .filter-btn {
@@ -172,8 +177,8 @@ body {
 
 .filter-btn:hover,
 .filter-btn:focus {
-  background-color: #2196f3;
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: var(--second-text-color);
 }
 
 .portfolio-title {

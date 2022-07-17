@@ -1,5 +1,6 @@
 :root {
   --text-color: #757575;
+  --first-text-color: #212121;
   --second-text-color: #ffffff;
   --accent-color: #2196f3;
 }
@@ -43,6 +44,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--first-text-color);
 }
 
 .header-link:hover,
@@ -91,7 +93,7 @@ body {
   line-height: 1.88;
   display: flex;
   letter-spacing: 0.06em;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: var(--second-text-color);
   cursor: pointer;
   background-color: var(--accent-color);
 }
@@ -99,8 +101,8 @@ body {
 .btn:hover,
 .btn:focus {
   background-color: #188ce8;
-  color: var(--second-text-color);
 }
+
 
 .about-title {
   font-weight: 700;
@@ -114,6 +116,10 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
+}
+
+.team {
+  background: #f5f4fa;
 }
 
 .work-title,
@@ -166,6 +172,10 @@ body {
   color: var(--accent-color);
 }
 
+.portfolio {
+  background-color: #e5e5e5;
+}
+
 .filter-btn {
   font-weight: 500;
   font-size: 16px;
@@ -173,7 +183,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: #f5f4fa;
 }
 
 .filter-btn:hover,
@@ -187,6 +197,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--first-text-color);
 }
 
 .portfolio-text {
